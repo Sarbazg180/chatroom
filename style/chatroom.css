@@ -1,0 +1,47 @@
+body{
+	background-color:#000117;
+	width:100vw;
+}
+.hhh{
+	position: sticky;
+	top:0;
+    height:60px !important;
+	padding:15px;
+	background:orange;
+	width:100%;
+	z-index:100;
+}
+.show-chat{
+	width:100%;
+	height:70vh;
+	background:#000118;
+	overflow:scroll;
+}
+.field{
+	background:#111;
+	min-height:100px;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	padding:25px 20px 20px 20px;
+}
+.form-control:focus{
+	border-color:orange;
+	box-shadow:none;
+	outline:none;
+	background-color:#000;
+	z-index:5 !important;
+}
+.form-control{
+	background-color:#000;
+	border-color:#666;
+}
+.center{
+	text-align:center;
+}
+.p{
+	display:block;
+}
+.abc{
+    font-size:20px;
+}
